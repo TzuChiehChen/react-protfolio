@@ -10,16 +10,18 @@ const Sidebar = () => (
 <div className="nav-bar">
     <Link className="logo" to = "/">
         <img src = {LogoJ} alt="logo" />
-        <img className ="sub-logo" src = {LogoSubtitle} alt="slobodan" />
+        <img className ="sub-logo" src = {LogoSubtitle} alt="jay" />
     </Link>
 
     <nav>
         <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
+
         <NavLink exact="true" activeclassname="active" className = "about-Link" to="/about">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
+        
         <NavLink exact="true" activeclassname="active" className = "contact-Link" to="/contact">
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
