@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-protfolio/static/css/main.6bd7ff91.css",
+    "main.css": "/react-protfolio/static/css/main.760f3e78.css",
     "main.js": "/react-protfolio/static/js/main.305cfa43.js",
     "static/js/453.bb257cf5.chunk.js": "/react-protfolio/static/js/453.bb257cf5.chunk.js",
     "static/media/logo-jay.png": "/react-protfolio/static/media/logo-jay.659944d4a14e4cb8744d.png",
@@ -9,12 +9,12 @@
     "static/media/LaBelleAurore.woff2": "/react-protfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/react-protfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/react-protfolio/index.html",
-    "main.6bd7ff91.css.map": "/react-protfolio/static/css/main.6bd7ff91.css.map",
+    "main.760f3e78.css.map": "/react-protfolio/static/css/main.760f3e78.css.map",
     "main.305cfa43.js.map": "/react-protfolio/static/js/main.305cfa43.js.map",
     "453.bb257cf5.chunk.js.map": "/react-protfolio/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bd7ff91.css",
+    "static/css/main.760f3e78.css",
     "static/js/main.305cfa43.js"
   ]
 }
