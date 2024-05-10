@@ -9,6 +9,7 @@ const Home = () => {
     const nameArray = ['J', 'a', 'y']
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
+    
     useEffect(() => {
         setTimeout(() => {
             return setLetterClass('text-animate-hover')
@@ -24,7 +25,7 @@ const Home = () => {
                 <br />
                 <span className = {`${letterClass} _13`}>I</span>
                 <span className = {`${letterClass} _14`}>'m</span>
-                <span className = {`${letterClass} _14`}> </span>
+                <span className = {`${letterClass} _15`}> </span>
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={15} />
