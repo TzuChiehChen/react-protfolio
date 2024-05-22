@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './index.scss';
 import React, { useEffect, useState } from "react";
 import Logo from './Logo';
+import Loader from 'react-loaders'
 // import ScrolledGallery from './Scrolled Gallery';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
     },[])
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -41,6 +43,8 @@ const Home = () => {
             <Logo />
             {/* <ScrolledGallery /> */}
         </div>
+        <Loader type = "pacman" />
+        </>
     );
 
     

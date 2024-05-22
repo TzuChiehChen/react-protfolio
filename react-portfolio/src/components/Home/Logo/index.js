@@ -2,7 +2,6 @@ import './index.scss';
 import LogoJ from "../../../assets/images/logo-j.png"
 import { useRef, useEffect } from 'react'
 
-
 const Logo = () => {
 
     const bgRef = useRef();
