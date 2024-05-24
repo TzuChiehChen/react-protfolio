@@ -15,15 +15,25 @@ const Contact = () => {
         }, 3000)
     },[])
 
+    
     const sendEmail = (e) =>{
         e.preventDefault()
 
         emailjs
             .sendForm(
-                'gmail',
+                'service_mvojte8',
                 'template_nz5qztg',
                 refForm.current,
                 'NxrSrLh2OZt6xlTV_'
+            )
+            .then(
+                () => {
+                    alert('Message successfully sent!')
+                    window.location.reload(false)
+                },
+                () =>{
+                    alert('Failed to send the message, please try again')
+                }
             )
     }
 
@@ -44,7 +54,7 @@ const Contact = () => {
                     <form ref={(refForm)} onSubmit={sendEmail}>
                         <ul>
                             <li className = 'half'>
-                                <input type = "text" name = "name" placeholder = "Name" required />
+                                <input placeholder="Name" type="text" name="name" required />
                             </li>
                             <li className = 'half'>
                                 <input type = "Email" name = "Email" placeholder = "Email" required />
