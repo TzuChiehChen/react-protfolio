@@ -48,8 +48,8 @@ const Contact = () => {
                     idx={15}
                     />
                 </h1>
-                <p>
-                    I am interested in ....
+                <p>Thank you for visiting my contact page! I'm currently seeking any career opportunities that align with my skills, interests, and professional goals. 
+                I have a keen interest in all facets of web design, from user experience to visual aesthetics.
                 </p>
                 <div className = 'contact-form'> 
                     <form ref={(refForm)} onSubmit={sendEmail}>
