@@ -4,7 +4,7 @@ import './index.scss';
 import React, { useEffect, useState } from "react";
 import Logo from './Logo';
 import Loader from 'react-loaders'
-// import ScrolledGallery from './Scrolled Gallery';
+
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,7 +41,6 @@ const Home = () => {
                 <Link to = "/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />
-            {/* <ScrolledGallery /> */}
         </div>
         <Loader type = "pacman" />
         </>
