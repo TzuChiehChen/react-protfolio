@@ -3,18 +3,16 @@ import profile from "../../../assets/images/ProfilePic.png";
 import { useRef, useEffect } from 'react';
 
 const Logo = () => {
-    const bgRef = useRef();
-    const outlineLogoRef = useRef();
     const solidLogoRef = useRef();
 
     useEffect(() => {
-        // You can add any effect you need here
-        // For example, animation initialization
+        // Trigger the transition by adding the 'visible' class
+        solidLogoRef.current.classList.add('visible');
     }, []);
 
     return (
-        <div className="logo-container" ref={bgRef}>
-            <img src={profile} alt="Profile" className="profile-pic" />
+        <div className="logo-container">
+            <img ref={solidLogoRef} src={profile} alt="Profile" className="profile-pic" />
         </div>
     );
 };

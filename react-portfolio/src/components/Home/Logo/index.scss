@@ -1,21 +1,29 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    position: relative;
+    height: 100%; /* Adjusted height */
+    width: 50%;  /* Adjusted width */
+    position: absolute;
+    top: 0;   /* Centered vertically */
+    right: 5%;  /* Centered horizontally */
     overflow: hidden;
-  }
-  
-  .profile-pic {
+    z-index: 1; /* Lower z-index to ensure it doesn't block other elements */
+}
+
+
+.profile-pic {
     position: relative;
     width: 450px; 
-    height: 550px;
-    margin-left: 40%;
+    height: auto;
     display: block;
     border-radius: 10%; 
-    transition: bottom 1s ease-in;
-  }
-  
-  
+    transition: bottom 1s ease-in 5s;
+}
