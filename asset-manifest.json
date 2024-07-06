@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-protfolio/static/css/main.260d3dad.css",
-    "main.js": "/react-protfolio/static/js/main.51e1399d.js",
+    "main.css": "/react-protfolio/static/css/main.ff1631c8.css",
+    "main.js": "/react-protfolio/static/js/main.358d28ec.js",
     "static/js/453.b3faef14.chunk.js": "/react-protfolio/static/js/453.b3faef14.chunk.js",
     "static/media/ProfilePic.png": "/react-protfolio/static/media/ProfilePic.ec829a7ddeddb51f8d5a.png",
     "static/media/Georgia.ttf": "/react-protfolio/static/media/Georgia.7eb0e3cec9d41a50efd7.ttf",
@@ -10,12 +10,12 @@
     "static/media/LaBelleAurore.woff2": "/react-protfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/react-protfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/react-protfolio/index.html",
-    "main.260d3dad.css.map": "/react-protfolio/static/css/main.260d3dad.css.map",
-    "main.51e1399d.js.map": "/react-protfolio/static/js/main.51e1399d.js.map",
+    "main.ff1631c8.css.map": "/react-protfolio/static/css/main.ff1631c8.css.map",
+    "main.358d28ec.js.map": "/react-protfolio/static/js/main.358d28ec.js.map",
     "453.b3faef14.chunk.js.map": "/react-protfolio/static/js/453.b3faef14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.260d3dad.css",
-    "static/js/main.51e1399d.js"
+    "static/css/main.ff1631c8.css",
+    "static/js/main.358d28ec.js"
   ]
 }
