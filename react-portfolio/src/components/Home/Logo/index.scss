@@ -1,37 +1,21 @@
-.logo-container{
-    z-index: 0;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 0;
-    right: 20%;
-    bottom: 0;
-    left: auto;
-    margin: auto;
-
-    svg{
-        width: 100%;
-        height: auto;
-        bottom: 0;
-        transform: rotateZ(30deg) !important;
-    }
-
-    .solid-logo{
-        position: absolute;
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: 0;
-        margin: auto;
-        width: 100%;
-        opacity: 0;
-        transform: rotateZ(30deg);
-        z-index: 1;
-    }
-
-    .svg-container{
-        stroke: #ffd700;
-    }
-    
-
-}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .profile-pic {
+    position: relative;
+    width: 450px; 
+    height: 550px;
+    margin-left: 40%;
+    display: block;
+    border-radius: 10%; 
+    transition: bottom 1s ease-in;
+  }
+  
+  
