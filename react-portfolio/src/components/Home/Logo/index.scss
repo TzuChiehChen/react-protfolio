@@ -13,14 +13,14 @@ html, body {
     max-width: 35%; /* Adjusted to maximum 50% of viewport width */
     position: absolute;
     top: 0;
-    right: 10%; /* Adjusted to 10% from the right */
+    right: 20%; /* Adjusted to 10% from the right */
     overflow: hidden;
     z-index: 1;
 }
 
 .profile-pic {
     position: relative;
-    width: 100%; /* Adjusted to fill the container */
+    width: 70%; /* Adjusted to fill the container */
     height: auto;
     display: block;
     border-radius: 10%; 

@@ -6,6 +6,16 @@
     min-width: 10px;
 }
 
+@for $i from 1 through 241 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i /10}s;
+    }
+}
+
+
+
+
+
 .text-animate-hover {
     min-width: 10px;
     display: inline-block;
@@ -24,11 +34,5 @@
         60% { transform: translate(2px, 2px); }
         80% { transform: translate(2px, -2px); }
         100% { transform: translate(0); }
-    }
-}
-
-@for $i from 1 through 35 {
-    .text-animate._#{$i} {
-        animation-delay: #{$i /10}s;
     }
 }
