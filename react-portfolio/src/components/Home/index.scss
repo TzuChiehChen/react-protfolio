@@ -3,11 +3,12 @@
     justify-content: space-between; /* Space between left and right halves */
     height: 100%;
     padding: 0 5%; /* Adjust padding as needed */
+    overflow-y: scroll;
 
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 45%;
+        top: 40%;
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
@@ -16,8 +17,15 @@
         align-items: flex-start; /* Align children to the start */
     }
 
+    .profile-section {
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+        position: relative;
+    }
+
     .hi-section {
-        font-size: 5rem; /* Adjust size as needed */
+        font-size: 50px; /* Adjust size as needed */
         color: #fff;
         font-family: 'Georgia';
         font-weight: 400;
@@ -43,7 +51,7 @@
     }
 
     .name-section {
-        font-size: 7rem; /* Larger size for name section */
+        font-size: 80px; /* Larger size for name section */
         color: #fff;
         margin: 0;
         margin-bottom: 5%;
@@ -98,7 +106,7 @@
     }
 
     p {
-        font-size: 1rem; /* Adjust font size as needed */
+        font-size: 15px; /* Adjust font size as needed */
         line-height: 1.5; /* Adjust line height for readability */
         color: #848282; /* Text color */
         font-family: sans-serif; /* Font family */
@@ -106,8 +114,6 @@
         margin: 0; /* Center the paragraph within its container */
     }
     
-
-
     .flat-button {
         color: #ffd700;
         font-size: 13px;
@@ -140,3 +146,50 @@
     }
 }
 
+.cases-section {
+    height: 100vh; /* Set the height to 60% of the viewport height */
+    max-height: 100%; /* Ensure the height doesn't exceed 60% of the viewport height */
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 700px;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 10%;
+
+    h2 {
+        font-size: 2rem;
+        color: #333;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .cases {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .case {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+// @media screen and (max-width: 1440px) {
+//     /* Adjust styles for smaller screens (e.g., tablets and smartphones) */
+//     .container {
+//         width: 95%;
+//     }
+
+//     .text-zone {
+//         font-size: 14px; /* Example: Reduce font size */
+//     }
+// }
+
+// @media screen and (max-width: 2560px) {
+//     /* Adjust styles for even smaller screens (e.g., smartphones) */
+//     .text-zone {
+//         font-size: 12px; /* Further reduce font size */
+//     }
+// }

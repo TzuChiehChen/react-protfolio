@@ -26,8 +26,6 @@ const Sidebar = () => (
         </NavLink>
     </nav>
 </div>
-
-
 )
 
 export default Sidebar

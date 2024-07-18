@@ -12,8 +12,8 @@ html, body {
     height: 100%;
     max-width: 35%; /* Adjusted to maximum 50% of viewport width */
     position: absolute;
-    top: 0;
-    right: 20%; /* Adjusted to 10% from the right */
+    top: -10%;
+    right: 15%; /* Adjusted to 10% from the right */
     overflow: hidden;
     z-index: 1;
 }

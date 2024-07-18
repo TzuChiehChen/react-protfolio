@@ -1,9 +1,10 @@
 import AnimatedLetters from '../AnimatedLetters';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import './index.scss';
 import React, { useEffect, useState } from "react";
 import Logo from './Logo';
-import Loader from 'react-loaders'
+import Cases from '../Cases';
+import Loader from 'react-loaders';
 
 
 const Home = () => {
@@ -58,11 +59,13 @@ const Home = () => {
                 </h2>
             </div>
             <Logo />
+            <div className="cases-section">
+                <Cases />
+            </div>
+            
         </div>
         <Loader type = "pacman" />
         </>
-    )
-
-    
+    )   
 }
 export default Home
