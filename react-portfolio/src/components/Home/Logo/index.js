@@ -6,7 +6,6 @@ const Logo = () => {
     const solidLogoRef = useRef();
 
     useEffect(() => {
-        // Trigger the transition by adding the 'visible' class
         solidLogoRef.current.classList.add('visible');
     }, []);
 

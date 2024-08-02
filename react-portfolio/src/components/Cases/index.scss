@@ -1,26 +1,26 @@
-.cases-container {
-    height: 20vh; /* Set the height to 60% of the viewport height */
-    max-height: 80vh; /* Ensure the height doesn't exceed 60% of the viewport height */
-    overflow-y: scroll; /* Enable vertical scrolling */
-    padding: 20px;
-    background-color: #f9f9f9;
-    margin-top: 20px;
-    border-radius: 10px;
+// .cases-container {
+//     height: 20vh; /* Set the height to 60% of the viewport height */
+//     max-height: 80vh; /* Ensure the height doesn't exceed 60% of the viewport height */
+//     overflow-y: scroll; /* Enable vertical scrolling */
+//     padding: 20px;
+//     background-color: #f9f9f9;
+//     margin-top: 20px;
+//     border-radius: 10px;
 
-    h2 {
-        font-size: 2rem;
-        color: #333;
-        text-align: center;
-        margin-bottom: 50px;
-    }
+//     h2 {
+//         font-size: 2rem;
+//         color: #333;
+//         text-align: center;
+//         margin-bottom: 50px;
+//     }
 
-    .cases {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+//     .cases {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//     }
 
-    .case {
-        margin-bottom: 20px;
-    }
-}
+//     .case {
+//         margin-bottom: 20px;
+//     }
+// }

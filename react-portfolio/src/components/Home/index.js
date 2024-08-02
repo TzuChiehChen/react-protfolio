@@ -58,7 +58,7 @@ const Home = () => {
                                          idx={15} />                                               
                 </h2>
             </div>
-            <Logo />
+                <Logo />
             <div className="cases-section">
                 <Cases />
             </div>
